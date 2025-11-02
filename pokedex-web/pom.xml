@@ -5,7 +5,7 @@
     <artifactId>pokedex-web</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
-    <name>pokedex-web-1.0</name>
+    <name>PokedexWeb_YuriGarcia</name>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

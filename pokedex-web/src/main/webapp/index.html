@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Start Page</title>
+        <title>PokedexWeb_YurGarcía</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="./styles/styles.css">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <header class="encabezado">
+            
+        </header>
+        <main>
+            <form method="post">
+                <div id="seccion-titulo">
+                    <label>Agrega un Pokémon</label>
+                </div>
+                <div class="seccion-datos">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa el nombre del pokémon"/>
+                </div>
+                <div class="seccion-datos">
+                    <label for="numero">Número</label>
+                    <input type="text" id="numero" name="numero" pattern="\d{3}" required placeholder="Ingresa el número del pokémon en la pokédex"/>
+                </div>
+                <div class="seccion-datos">
+                    <label for="tipo">Tipo</label>
+                    <input type="text" id="tipo" name="tipo" maxlength="10" required placeholder="Ingresa el tipo del pokémon"/>
+                </div>
+                <div class="seccion-datos">
+                    <label for="imaqen">Tipo</label>
+                    <input type="url" id="imagen" name="imaqen" required placeholder="Agrega la imagen del pokémon"/>
+                </div>
+                <div id="seccion-enviar">
+                    <input type="submit" value="Agregar Pokémon" id="boton-agregar">
+                </div>
+            </form>
+        </main>
     </body>
 </html>
