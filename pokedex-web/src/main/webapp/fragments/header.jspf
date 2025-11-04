@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<header class="encabezado">
+    <div class="logo-sitio" alt="logo">
+        <img class="logo" src="./imgs/logo.png" alt="logo">
+        <h3 class="titulo-sitio">PokédexWeb</h3>
+    </div>
+    <div class="header-nav">
+        <nav>
+            <a href="./index.html"><button class="boton-header">Agregar Pokémon</button></a>
+            <a href="./pokemons.html"><button class="boton-header">Pokémons Registrados</button></a>
+        </nav>
+    </div>
+</header>

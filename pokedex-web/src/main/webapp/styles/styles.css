@@ -82,8 +82,8 @@ body{
 .input-text{
     width: 100%;
     border: 1px solid #CBD5E1;
-    background: #ffffff;
-    color: #0F172A;
+    background: var(--color-fondo-input-text);
+    color: var(--color-letra-input-text);
     font-size: 0.95rem;
     padding: 12px 14px;
     border-radius: 8px;
@@ -99,8 +99,8 @@ body{
 .input-file{
     width: 100%;
     border: 1px solid #CBD5E1;
-    background: #ffffff;
-    color: #0F172A;
+    background: var(--color-fondo-input-text);
+    color: var(--color-letra-input-text);
     font-size: 0.95rem;
     padding: 12px 14px;
     border-radius: 8px;
@@ -149,7 +149,7 @@ body{
 }
 
 .pokemon-item{
-    background-color: #F1F5F9;
+    background-color: var(--color-fondo-item-pokemon);
     border-radius: 3%;
 }
 
@@ -195,7 +195,7 @@ body{
 .info-pokemon > .nombre-pokemon{
     max-width: 100%;
     font-family: var(--fuente-letra-sitio);
-    font-size: 85%;
+    font-size: 100%;
     font-weight: 500;
     margin: 0px;
 }
