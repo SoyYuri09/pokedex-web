@@ -9,21 +9,21 @@
     <body>
         <header class="encabezado">
             <div class="logo-sitio" alt="logo">
-                <img id="logo" src="./imgs/logo.png" alt="logo">
+                <img class="logo" src="./imgs/logo.png" alt="logo">
                 <h3 class="titulo-sitio">PokédexWeb</h3>
             </div>
             <div class="header-nav">
                 <nav>
-                    <a href="./index.html"><button class="boton-registrar-pokemon">Agregar Pokémon</button></a>
-                    <a href="./pokemons.html"><button class="boton-pokemon-registrados">Pokémons Registrados</button></a>
+                    <a href="./index.html"><button class="boton-header">Agregar Pokémon</button></a>
+                    <a href="./pokemons.html"><button class="boton-header">Pokémons Registrados</button></a>
                 </nav>
             </div>
         </header>
-        <main>
-            <form class="formulario" method="post">
-                <div id="seccion-titulo">
-                    <label class="titulo-formulario">Agrega un Pokémon</label>
+        <main class="seccion-main">
+            <div id="seccion-titulo">
+                    <h2 class="titulo-formulario">Agrega un Pokémon</h2>
                 </div>
+            <form class="formulario" method="post">
                 <div class="seccion-datos">
                     <label class="texto-label" for="nombre">Nombre</label>
                     <input class="input-text" type="text" id="nombre" name="nombre" required placeholder="Ingresa el nombre del pokémon"/>
@@ -41,7 +41,7 @@
                     <input class="input-file" type="file" id="imagen" name="imaqen" required placeholder="Agrega la imagen del pokémon"/>
                 </div>
                 <div id="seccion-enviar">
-                    <input class="input-submit" type="submit" value="Agregar Pokémon" id="boton-agregar">
+                    <input class="boton-enviar" type="submit" value="Agregar Pokémon">
                 </div>
             </form>
         </main>

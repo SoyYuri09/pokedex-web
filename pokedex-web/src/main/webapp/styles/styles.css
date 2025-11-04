@@ -1,6 +1,11 @@
 @import url("./global.css");
 
-/*body{
+*{
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
   background: var(--color-fondo-animado);
   background-size: 400% 400%;
   animation: animacionFondo 10s ease infinite;
@@ -16,12 +21,197 @@
     100%{
       background-position: 0% 50%;
     }
-}*/
+}
 
-body{
-    background: red;
+.logo{
+    height: 100px;
+    margin-right: 30px;
+}
+
+.encabezado{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--color-fondo-encabezado);
 }
 
 .logo-sitio{
-    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-sitio{
+    font-family: var(--fuente-letra-titulo-sitio);
+    font-size: 50px;
+    margin-top: 19px;
+    margin-bottom: 0;
+    color: var(--color-titulo);
+}
+
+.boton-header{
+    margin-top: 30px;
+    justify-content: center;
+    font-family: var(--fuente-letra-titulo-sitio);
+    font-size: 15px;
+    color: var(--color-texto-botones);
+    background: var(--color-fondo-botones);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.seccion-main{
+    margin-top: 4%;
+    margin-right: 30%;
+    margin-left: 30%;
+    background: linear-gradient(180deg,
+      rgba(255, 255, 255, 0.9) 0%,
+      rgba(255, 255, 255, 0.82) 100%);
+    box-shadow: 0 18px 40px rgba(2, 6, 23, 0.12);
+    border-radius: 2em;
+    padding: 1.5%;
+}
+
+.titulo-formulario{
+    font-family: var(--fuente-letra-sitio);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 60px;
+}
+
+.input-text{
+    width: 100%;
+    border: 1px solid #CBD5E1;
+    background: #ffffff;
+    color: #0F172A;
+    font-size: 0.95rem;
+    padding: 12px 14px;
+    border-radius: 8px;
+    font-family: var(--fuente-letra-sitio);
+}
+
+.texto-label{
+    font-family: var(--fuente-letra-sitio);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.input-file{
+    width: 100%;
+    border: 1px solid #CBD5E1;
+    background: #ffffff;
+    color: #0F172A;
+    font-size: 0.95rem;
+    padding: 12px 14px;
+    border-radius: 8px;
+    font-family: var(--fuente-letra-sitio);
+}
+
+.seccion-datos{
+    margin: 0 0 20px 0;
+}
+
+#seccion-enviar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton-enviar{
+    justify-content: center;
+    font-family: var(--fuente-letra-titulo-sitio);
+    font-size: 15px;
+    color: var(--color-texto-botones);
+    background: var(--color-fondo-botones);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.pokemon-lista{
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(5, 17.6%);
+    grid-auto-rows: 29.6vw;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    row-gap: 2vw;
+    margin: 0%;
+    padding: 2vw 0%;
+    overflow: auto;
+}
+
+.pokemon-item{
+    background-color: #F1F5F9;
+    border-radius: 3%;
+}
+
+.pokemon{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 75% 25%;
+    padding: 2%;
+}
+
+.pokemon-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 3% 3% 0% 3%;
+}
+
+.pokemon-imagen > img{
+    max-width: 100%;
+    max-height: 100%;
+    padding: 0%;
+    margin: 0%;
+    border-radius: 3%;
+}
+
+.info-pokemon{
+    max-width: 100%;
+    max-height: 100%;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 4%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.info-pokemon > .nombre-pokemon{
+    max-width: 100%;
+    font-family: var(--fuente-letra-sitio);
+    font-size: 85%;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.info-pokemon > .numero-pokemon{
+    max-width: 100%;
+    font-size: 100%;
+    font-family: var(--fuente-letra-sitio);
+    margin: 0px;
+    font-weight: 800;
+}
+
+.info-pokemon > .tipo-pokemon{
+    max-width: 100%;
+    font-size: 100%;
+    font-family: var(--fuente-letra-sitio);
+    margin: 0px;
+    font-weight: 800;
 }

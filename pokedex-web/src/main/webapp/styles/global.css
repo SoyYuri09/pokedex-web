@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 :root{
-    --color-fondo-animado: linear-gradient(45deg, #91C8E4 0%, #749BC2 55%, #4682A9 100%);
+    --color-fondo-animado: linear-gradient(45deg, #91C8E4, #749BC2, #4682A9);
+    --color-titulo: #AFDEED;
+    --color-fondo-botones: #18B58B;
+    --color-texto-botones: white;
+    --fuente-letra-titulo-sitio: "Momo Trust Display",sans-serif;
+    --fuente-letra-sitio: "Mulish", sans-serif;
+    --color-fondo-encabezado: #4E678A;
 }
