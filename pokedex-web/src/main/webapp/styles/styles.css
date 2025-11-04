@@ -1,9 +1,27 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 2 nov 2025, 1:30:11 p.m.
-    Author     : Usuario
-*/
+@import url("./global.css");
 
+/*body{
+  background: var(--color-fondo-animado);
+  background-size: 400% 400%;
+  animation: animacionFondo 10s ease infinite;
+}
+
+@keyframes animacionFondo{
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+}*/
+
+body{
+    background: red;
+}
+
+.logo-sitio{
+    height: 100px;
+}

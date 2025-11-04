@@ -1,9 +1,5 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 2 nov 2025, 1:30:05 p.m.
-    Author     : Usuario
-*/
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap');
 
+:root{
+    --color-fondo-animado: linear-gradient(45deg, #91C8E4 0%, #749BC2 55%, #4682A9 100%);
+}

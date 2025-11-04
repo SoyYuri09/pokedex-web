@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PokedexWeb_YurGarcía</title>
+        <title>Pokédex Web</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="icon" href="./imgs/logo.png">
         <link rel="stylesheet" href="./styles/styles.css">
     </head>
     <body>
         <header class="encabezado">
-            
+            <div class="logo-sitio" alt="logo">
+                <img id="logo" src="./imgs/logo.png" alt="logo">
+                <h3 class="titulo-sitio">PokédexWeb</h3>
+            </div>
+            <div class="header-nav">
+                <nav>
+                    <a href="./index.html"><button class="boton-registrar-pokemon">Agregar Pokémon</button></a>
+                    <a href="./pokemons.html"><button class="boton-pokemon-registrados">Pokémons Registrados</button></a>
+                </nav>
+            </div>
         </header>
         <main>
-            <form method="post">
+            <form class="formulario" method="post">
                 <div id="seccion-titulo">
-                    <label>Agrega un Pokémon</label>
+                    <label class="titulo-formulario">Agrega un Pokémon</label>
                 </div>
                 <div class="seccion-datos">
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" placeholder="Ingresa el nombre del pokémon"/>
+                    <label class="texto-label" for="nombre">Nombre</label>
+                    <input class="input-text" type="text" id="nombre" name="nombre" required placeholder="Ingresa el nombre del pokémon"/>
                 </div>
                 <div class="seccion-datos">
-                    <label for="numero">Número</label>
-                    <input type="text" id="numero" name="numero" pattern="\d{3}" required placeholder="Ingresa el número del pokémon en la pokédex"/>
+                    <label class="texto-label" for="numero">Número</label>
+                    <input class="input-text" type="text" id="numero" name="numero" pattern="\d{3}" required placeholder="Ingresa el número del pokémon en la pokédex"/>
                 </div>
                 <div class="seccion-datos">
-                    <label for="tipo">Tipo</label>
-                    <input type="text" id="tipo" name="tipo" maxlength="10" required placeholder="Ingresa el tipo del pokémon"/>
+                    <label class="texto-label" for="tipo">Tipo</label>
+                    <input class="input-text" type="text" id="tipo" name="tipo" maxlength="10" required placeholder="Ingresa el tipo del pokémon"/>
                 </div>
                 <div class="seccion-datos">
-                    <label for="imaqen">Tipo</label>
-                    <input type="url" id="imagen" name="imaqen" required placeholder="Agrega la imagen del pokémon"/>
+                    <label class="texto-label" for="imaqen">Imagen del Pokémon</label>
+                    <input class="input-file" type="file" id="imagen" name="imaqen" required placeholder="Agrega la imagen del pokémon"/>
                 </div>
                 <div id="seccion-enviar">
-                    <input type="submit" value="Agregar Pokémon" id="boton-agregar">
+                    <input class="input-submit" type="submit" value="Agregar Pokémon" id="boton-agregar">
                 </div>
             </form>
         </main>
