@@ -1,9 +1,9 @@
-<%@page import="com.mycompany.pokedex.web.servlets.dominio.PokemonDTO"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="com.mycompany.pokedex.web.servlets.dominio.PokemonDTO"%>
 <%@taglib prefix="c" uri="jakarta.tags.core"%>
 <html>
     <head>
-        <title>PokÃ©dex Web - Registros</title>
+        <title>Pokédex Web - Registros</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="./imgs/logo.png">

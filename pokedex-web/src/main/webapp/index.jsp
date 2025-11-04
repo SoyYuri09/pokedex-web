@@ -1,3 +1,4 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -19,7 +20,7 @@
                 </div>
                 <div class="seccion-datos">
                     <label class="texto-label" for="numero">Número</label>
-                    <input class="input-text" type="text" id="numero" name="numero" pattern="\d{3}" required placeholder="Ingresa el número del pokémon en la pokédex"/>
+                    <input class="input-text" type="text" id="numero" name="numero" pattern="\d{3}" required placeholder="Ingresa el número del pokémon en la pokÃ©dex"/>
                 </div>
                 <div class="seccion-datos">
                     <label class="texto-label" for="tipo">Tipo</label>

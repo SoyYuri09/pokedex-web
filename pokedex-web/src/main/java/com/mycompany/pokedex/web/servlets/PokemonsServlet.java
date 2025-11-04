@@ -51,6 +51,7 @@ public class PokemonsServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        request.setCharacterEncoding("UTF-8");
         
         String nombre = request.getParameter("nombre");
         String numero = request.getParameter("numero");
