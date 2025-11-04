@@ -11,8 +11,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
     </div>
     <div class="header-nav">
         <nav>
-            <a href="./index.html"><button class="boton-header">Agregar Pokémon</button></a>
-            <a href="./pokemons.html"><button class="boton-header">Pokémons Registrados</button></a>
+            <a href="pokes"><button class="boton-header">Agregar Pokémon</button></a>
+            <a href="pokedex"><button class="boton-header">Pokémons Registrados</button></a>
         </nav>
     </div>
 </header>

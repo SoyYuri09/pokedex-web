@@ -215,3 +215,132 @@ body{
     margin: 0px;
     font-weight: 800;
 }
+
+.seccion-errores{
+    color: red;
+    font-size: 20px;
+    font-family: var(--fuente-letra-sitio);
+}
+
+@media (max-width: 576px){
+    
+    .pokemon-lista{
+        display: grid;
+        grid-template-columns: 80%;
+        grid-auto-rows: 30vw;
+        row-gap: 5vw;
+    }
+
+    .pokemon-item{
+        border-radius: 0.5em;
+    }
+
+    .pokemon{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 100%;
+    }
+
+    .pokemon-imagen{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 3%;
+    }
+
+    .pokemon-imagen > img{
+        border-radius: 0.5em;
+    }
+
+    .info-pokemon{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-content: space-evenly;
+    }
+
+    .info-pokemon > .nombre-pokemon{
+        font-size: 2.6vw;
+    }
+
+    .info-pokemon > .numero-pokemon{
+        font-size: 3vw;
+    }
+    
+    .info-pokemon > .tipo-pokemon{
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 576px){
+    
+    .pokemon-lista{
+        display: grid;
+        grid-template-columns: 80%;
+        grid-auto-rows: 30vw;
+        row-gap: 5vw;
+    }
+
+    .pokemon-item{
+        border-radius: 0.5em;
+    }
+
+    .pokemon{
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 100%;
+    }
+
+    .pokemon-imagen{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        padding: 3%;
+    }
+
+    .pokemon-imagen > img{
+        border-radius: 0.5em;
+    }
+
+    .info-pokemon{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        justify-content: space-evenly;
+    }
+
+    .info-pokemon > .nombre-pokemon{
+        font-size: 2.6vw;
+    }
+
+    .info-pokemon > .numero-pokemon{
+        font-size: 3vw;
+    }
+    
+    .info-pokemon > .tipo-pokemon{
+        font-size: 3vw;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+    
+    .pokemon-lista{
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        grid-auto-rows: 50.45vw;
+        row-gap: 2.5vw;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .pokemon-lista{
+        display: grid;
+        grid-template-columns: repeat(4, 22%);
+        grid-auto-rows: 37.86vw;
+        row-gap: 2.4vw;
+        padding: 2.4vw 0%;
+    }
+}
